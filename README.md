@@ -26,35 +26,65 @@ Until now, it is only to do PUT commands by this library. GET commands are not r
 The commands supported by this library are:
 
 void setDebug( bool _debug );
+
 void setupIP( char* _bridge_ip );
+
 void setupUser( char* _bridge_user );
+
 void setup( char* _bridge_ip, char* _bridge_user );
 		
 void xy( float _x, float _y );
+
 void xySet( uint8_t _light_id, float _x, float _y );
+
 void on();
+
 void on( bool _on );
+
 void onSet( uint8_t _light_id, bool _on );
+
 void onSet( uint8_t _light_id );
+
 bool onGet();
+
 void off();
+
 void offSet( uint8_t _light_id );
+
 void hue( uint16_t _hue );
+
 void hueSet( uint8_t _light_id, uint16_t _hue );
+
 uint16_t hueGet();
+
 void ct( uint16_t _ct );
+
 void ctSet( uint8_t _light_id, uint16_t _ct );
+
 uint16_t ctGet();
+
 void bri( uint8_t _bri );
+
 void briSet( uint8_t _light_id, uint8_t _bri );
+
 uint8_t briGet();
+
 void sat( uint8_t _sat );
+
 void satSet( uint8_t _light_id, uint8_t _sat );
+
 uint8_t satGet();
+
 void HSB( uint16_t _hue, uint8_t _sat, uint8_t _bri );
+
 void HSBSet( uint8_t _light_id, uint16_t _hue, uint8_t _sat, uint8_t _bri );
+
 void HSBOnSet( uint8_t _light_id, uint16_t _hue, uint8_t _sat, uint8_t _bri, bool _on );
+
 void CB( uint16_t _ct, uint8_t _bri );
+
 void CBSet( uint8_t _light_id, uint16_t _ct, uint8_t _bri );
+
 bool set( uint8_t _light_id );
+
 bool set( uint8_t _light_id, String _command );
