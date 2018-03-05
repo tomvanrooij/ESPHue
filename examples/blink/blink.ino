@@ -14,6 +14,7 @@ void setup() {
 
 void loop() {
   h.HSB(2000, 255, 255); //configure hsb
+  h.on(); //configure on
   h.set(1); //apply set hsb to lamp 1
   h.set(2); //apply set hsb to lamp 2
 
