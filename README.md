@@ -21,7 +21,8 @@ Copy this username and replace USERNAME in the code by the username you obtained
 
 Upload the sketch to your ESP8266 and it should work.
 
-Until now, it is only to do PUT commands by this library. GET commands are not received yet from the Hue bridge. This means that the get commands in this library will refer to the variable states used by this library.
+Until now, it is only to do PUT commands by this library. GET commands are not received yet from the Hue bridge. This means that the get commands in this library will refer to the variable states used by this library. 
+An alternative for this library is https://github.com/circuitsforfun/ESP_Hue by circuitsforfun which has some functions to read the response from the Philips Hue system.
 
 The commands supported by this library are:
 
